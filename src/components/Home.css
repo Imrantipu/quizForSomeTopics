@@ -1,0 +1,23 @@
+.bg {
+    background-image: url("https://media.istockphoto.com/id/1364994903/video/animation-of-question-marks-on-green-background.jpg?s=640x640&k=20&c=Fdr74s-FYQeLf8yYOFHpbK9f0TGp9E6B8nNiPawQtVc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+
+  .content {
+    position: absolute;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 25px;
+    font-weight: lighter;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    vertical-align: middle;
+  }
+  
