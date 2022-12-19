@@ -5,6 +5,7 @@ import QuizDetails from './../components/QuizDetails';
 import Topics from './../components/Topics';
 import Statistics from "../components/Statistics";
 import Blog from './../components/Blog';
+import Error from "../components/Error";
 
 export const router = createBrowserRouter([
     {
@@ -46,5 +47,9 @@ export const router = createBrowserRouter([
               }
 
         ]
+    },
+    {
+        path:'*',
+        element:<Error></Error>
     }
 ]);
